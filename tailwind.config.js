@@ -15,4 +15,8 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    // Disable the core order plugin to avoid conflicts
+    order: false,
+  },
 };
