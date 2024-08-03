@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    compiler:{
-        styledComponents:true,
-    }
-};
-
-export default nextConfig;
+    // output: 'undefined',
+    //   distDir: 'out',
+    };
+    
+    export default nextConfig;
+    
