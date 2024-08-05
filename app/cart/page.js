@@ -1,7 +1,7 @@
 'use client';
 // import { useCartContext } from '@/components/CartContext';
 const page = () => {
-    const { cartProducts, setCartProducts } = useCartContext();
+    // const { cartProducts, setCartProducts } = useCartContext();
   return (
     <main className='h-screen w-screen bg-gray-100'>
         <div className="bg-white ">
