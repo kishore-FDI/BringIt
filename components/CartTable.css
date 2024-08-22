@@ -1,0 +1,25 @@
+/* Hidden scrollbar (transparent and hidden) */
+.inactive-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out, background-color 1.5s ease-in-out;
+}
+
+/* Visible scrollbar during scrolling */
+.active-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out, background-color 1.5s ease-in-out;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
