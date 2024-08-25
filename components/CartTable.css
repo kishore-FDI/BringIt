@@ -12,14 +12,17 @@
   transition: opacity 1.5s ease-in-out, background-color 1.5s ease-in-out;
 }
 
+/* Customize scrollbar width */
 .scrollbar-thin::-webkit-scrollbar {
   width: 8px;
 }
 
+/* Track is transparent */
 .scrollbar-thin::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
+/* Thumb style */
 .scrollbar-thin::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
